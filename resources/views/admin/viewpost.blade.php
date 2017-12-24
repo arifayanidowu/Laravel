@@ -24,7 +24,7 @@
 						        <td>{{ $post-> author}}</td>
 						        <td>{{ $post->created_at->diffForHumans() }}</td>
 						        <td><a href="/editpost/{{ $post->id }}">edit</a></td>
-						        <td><a href="/viewpost/{{ $post->id }}">delete</a></td>
+						        <td><a href="/viewposts/{{ $post->id }}">delete</a></td>
 					        </tr>
 
                         @endforeach

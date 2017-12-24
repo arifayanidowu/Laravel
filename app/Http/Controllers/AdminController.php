@@ -61,7 +61,7 @@ class AdminController extends Controller
         
         Post::all()->find($id)->delete();
 
-        return redirect('/viewpost')->withMessage("Post Deleted Successfully");
+        return redirect('/viewposts')->withMessage("Post Deleted Successfully");
     }
 
 
