@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>{{ $title }}</title>
-	<link rel="stylesheet" type="text/css" href="styles/admin_styles.css">
+	<link rel="stylesheet" type="text/css" href="/styles/admin_styles.css">
 </head>
 
 <body>
