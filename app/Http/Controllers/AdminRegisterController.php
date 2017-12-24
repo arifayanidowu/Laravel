@@ -14,7 +14,7 @@ class AdminRegisterController extends Controller
         $title = "Register";
         $label = "Admin Register";
 
-        return view('admin.admin-Register', compact('title', 'label'));
+        return view('admin.admin-register', compact('title', 'label'));
   
     }
 
