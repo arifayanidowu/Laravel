@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    
     <h1 class="text-center" style="margin-top: 300px; color: #a10526;">Welcome to my world {{ $name }} <i class="fa fa-github"></i></h1>
 
     <!-- Optional JavaScript -->
