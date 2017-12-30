@@ -8,3 +8,4 @@ class Admin extends Authenticatable
 {
     protected $fillable = ['firstname', 'lastname', 'email', 'password'];
 }
+
