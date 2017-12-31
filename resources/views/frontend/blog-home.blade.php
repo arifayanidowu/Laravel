@@ -10,7 +10,7 @@
 
             @foreach($posts as $post)
                 <h2 class="blog-post-title"><a href="/showPost/{{ $post->id }}">{{ $post->title }}</a></h2>
-                <p class="blog-post-meta">{{ $post->created_at->format('l jS \\of F Y h:i:s A') }} <a href="#">{{ $post->author }}</a></p>
+                <p class="blog-post-meta">{{ $post->created_at->toFormattedDateString() }} <a href="#">{{ $post->author }}</a></p>
             @endforeach
         
         @endif

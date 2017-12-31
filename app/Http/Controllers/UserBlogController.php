@@ -10,7 +10,7 @@ class UserBlogController extends Controller
     //
     public function showBlog() {
         $title = 'sample Blog';
-        $posts = post::all();
+        $posts = post::latest()->get();
         
         return view('frontend.blog-home', compact('title', 'posts'));
     }
