@@ -44,7 +44,7 @@ class AdminController extends Controller
 
         $post->save(); */
 
-        post::create(request()->all());
+        Post::create(request()->all());
         return redirect('/addpost')->withMessage("Post added successfully");
         
     }
