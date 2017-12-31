@@ -20,6 +20,7 @@
             {{csrf_field()}}    <!--protecting against cross-site request forgery-->
 
             {{ session()->get('message') }}
+            
 
 			<div>
                 @if($errors->get('author'))

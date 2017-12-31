@@ -85,6 +85,7 @@ class AdminController extends Controller
         $post->save();
 
         return redirect('/viewposts')->withMessage("Post updated successfully");
+    
     }
 
 

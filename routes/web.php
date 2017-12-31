@@ -74,5 +74,9 @@ Route::post('/editpost/{id}', 'AdminController@updatePost');
 Route::get('/showblog', 'UserBlogController@showBlog');
 
 Route::get('/showPost/{id}', 'UserBlogController@showPost');
+
+
  
- // ->middleware('checkname');
+ // ->middleware('checkname')
+
+ 
