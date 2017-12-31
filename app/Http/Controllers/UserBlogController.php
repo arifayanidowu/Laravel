@@ -19,6 +19,6 @@ class UserBlogController extends Controller
         $title = 'title';
         $post = Post::find($id);
 
-        return view('frontend.showPost', compact('post'));
+        return view('frontend.showPost', compact('title','post'));
     }
 }
