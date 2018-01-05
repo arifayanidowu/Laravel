@@ -17,6 +17,11 @@
     return view('welcome', compact('name'));
 });
 
+ Route::get('/laravel', function () {
+
+    return view('hello');
+});
+
 /* Route::get('/about', function(){
     return view('about');
 });

@@ -18,13 +18,6 @@ class AdminController extends Controller
         
     }
 
-      /* public function showRegister() {
-        $title = "Register";
-        $label = "Admin Register";
-
-        return view('admin.admin-Register', compact('title', 'label'));
-   */      
-   /*  } */
 
     public function showIndex() {
         $title = "add post";
