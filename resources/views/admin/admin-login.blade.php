@@ -5,7 +5,7 @@
 
 <h1 id="register-label">{{ $label }}</h1>
 <hr>
-<form id="register" action="login.php" method="POST">
+<form id="register" action="/login" method="POST">
     <div>
         <label>email:</label>
         <input type="text" name="email" placeholder="email">
