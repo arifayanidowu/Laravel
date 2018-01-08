@@ -18,6 +18,15 @@ class AdminController extends Controller
         
     }
 
+ /*    public function index(){
+
+       $rules = array(
+           'email' => 'required',
+           'password' => 'required'
+       );
+
+        return redirect('/addpost');
+    }     */
 
     public function showIndex() {
         $title = "add post";

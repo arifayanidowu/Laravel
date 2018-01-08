@@ -57,8 +57,12 @@ Route::get('/tasks', 'TaskController@showAllTasks');
 Route::get('/tasks/{id}', 'TaskController@showTask');
 
 // admin routes
-Route::get('/admin', 'AdminController@showLogin');
+Route::get('/login', 'AdminController@showLogin');
+/* 
+Route::post('/', 'AdminController@store'); */
+
 Route::get('/register', 'AdminRegisterController@showRegister');
+
 Route::post('/register', 'AdminRegisterController@register');
 
 // admin home routes
